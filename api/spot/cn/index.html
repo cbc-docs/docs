@@ -753,7 +753,7 @@
 </tr>
 </thead><tbody>
 <tr>
-<td><code>https://api.fameex.com</code></td>
+<td><code>https://api.cryptobridgecenter.com</code></td>
 <td>RESTFUL API</td>
 </tr>
 <tr>
@@ -841,7 +841,7 @@
 
 <p>API 请求在通过 internet 传输的过程中极有可能被篡改，为了确保请求未被更改，除推送服务接口外的私有接口均必须使用您的 API 的 AccessKey 和 SecretKey 做签名认证，以校验参数或参数值在传输途中是否发生了更改。</p>
 
-<p>方法请求地址：即访问服务器地址 api.fameex.com，比如 api.fameex.com/v1/order/orders</p>
+<p>方法请求地址：即访问服务器地址 api.cryptobridgecenter.com，比如 api.cryptobridgecenter.com/v1/order/orders</p>
 
 <p><strong>API Key 包含以下两部分：</strong></p>
 
@@ -1977,7 +1977,7 @@
 
 <p>/v1/common/timestamp</p>
 
-<p>curl <code>https://api.fameex.com/v1/common/timestamp</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/common/timestamp</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -2030,7 +2030,7 @@
 
 <p>/v1/common/symbols</p>
 
-<p>curl <code>https://api.fameex.com/v1/common/symbols</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/common/symbols</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -2134,7 +2134,7 @@
 
 <p>/v1/common/currencys</p>
 
-<p>curl <code>https://api.fameex.com/v1/common/currencys</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/common/currencys</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -2304,7 +2304,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/api/v2/orderbook?symbol=BTC-USDT&amp;limit=5'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/api/v2/orderbook?symbol=BTC-USDT&amp;limit=5'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -2376,7 +2376,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/api/v2/trades?symbol=BTC-USDT'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/api/v2/trades?symbol=BTC-USDT'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -2473,7 +2473,7 @@
 
 <p>/v1/market/history/kline</p>
 
-<p>curl <code>https://api.fameex.com/v1/market/history/kline</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/market/history/kline</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -2586,7 +2586,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/api/v2/ticker/24hr'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/api/v2/ticker/24hr'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -2691,7 +2691,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/v2/public/assets'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/v2/public/assets'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -2765,7 +2765,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/v2/public/summary'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/v2/public/summary'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -2874,7 +2874,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/v2/public/ticker'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/v2/public/ticker'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -2948,7 +2948,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/v2/public/orderbook/market_pair?market_pair=BTC_USDT&amp;level=3&amp;depth=100'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/v2/public/orderbook/market_pair?market_pair=BTC_USDT&amp;level=3&amp;depth=100'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -3026,7 +3026,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/v2/public/trades/market_pair?market_pair=BTC_USDT'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/v2/public/trades/market_pair?market_pair=BTC_USDT'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -3116,7 +3116,7 @@
 <blockquote>
 <p>请求示例</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.fameex.com/api/v2/ticker/price'</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">--request</span> GET <span class="s1">'https://api.cryptobridgecenter.com/api/v2/ticker/price'</span>
 </code></pre></div>
 <blockquote>
 <p>响应</p>
@@ -3184,7 +3184,7 @@
 
 <p>/v1/api/spot/orders</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/orders</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/orders</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -3306,7 +3306,7 @@
 
 <p>/v1/api/spot/cancel_orders</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/cancel_orders</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/cancel_orders</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -3397,7 +3397,7 @@
 
 <p>/v1/api/spot/cancel_orders_all</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/cancel_orders_all</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/cancel_orders_all</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -3492,7 +3492,7 @@
 
 <p>/v1/api/spot/orderdetail</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/orderdetail</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/orderdetail</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -3704,7 +3704,7 @@
 
 <p>/v1/api/spot/orderlist</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/orderlist</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/orderlist</code></p>
 
 <p><code>headers参数</code></p>
 
@@ -3995,7 +3995,7 @@
 
 <p>/v1/api/spot/fills</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/fills</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/fills</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -4259,7 +4259,7 @@
 
 <p>/v1/api/orders_pending</p>
 
-<p>curl <code>https://api.fameex.com /v1/api/orders_pending</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com /v1/api/orders_pending</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -4405,7 +4405,7 @@
 
 <p>/v1/api/account/wallet</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/account/wallet</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/account/wallet</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -4501,7 +4501,7 @@
 
 <p>/v1/api/account/wallet/currency</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/account/wallet/currency</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/account/wallet/currency</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -4587,7 +4587,7 @@
 
 <p>POST /v1/api/account/transfer</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/account/transfer</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/account/transfer</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -4697,7 +4697,7 @@
 
 <p>POST /v1/api/spot/record/trade</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/record/trade</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/record/trade</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -4858,7 +4858,7 @@
 
 <p>POST /v1/api/spot/record/chargewithdraw</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/record/chargewithdraw</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/record/chargewithdraw</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -5067,7 +5067,7 @@
 
 <p>POST /v1/api/spot/record/trans</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/record/trans</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/record/trans</code></p>
 
 <p>`<strong>路由参数：</strong></p>
 
@@ -5248,7 +5248,7 @@
 
 <p>POST /v1/api/spot/record/others</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/spot/record/others</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/spot/record/others</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -5397,7 +5397,7 @@
 
 <p>/v1/api/account/deposit/address</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/account/deposit/address</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/account/deposit/address</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -5491,7 +5491,7 @@
 
 <p>/v1/api/lever/accounts</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/accounts</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/accounts</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -5649,7 +5649,7 @@
 
 <p>/v1/api/lever/accounts</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/accounts</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/accounts</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -5813,7 +5813,7 @@
 
 <p>/v1/api/lever/orders/place</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/orders/place</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/orders/place</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -5935,7 +5935,7 @@
 
 <p>/v1/api/lever/orders/cancel</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/orders/cancel</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/orders/cancel</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -6026,7 +6026,7 @@
 
 <p>/v1/api/lever/orders/batch_cancel</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/orders/batch_cancel</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/orders/batch_cancel</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -6121,7 +6121,7 @@
 
 <p>/v1/api/lever/orders</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/orders</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/orders</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -6562,7 +6562,7 @@
 
 <p>/v1/api/lever/orders/detail</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/orders/detail</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/orders/detail</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -6868,7 +6868,7 @@
 
 <p>/v1/api/lever/deals</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/deals</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/deals</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7221,7 +7221,7 @@
 
 <p>/v1/api/lever/pair/config</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/pair/config</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/pair/config</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7346,7 +7346,7 @@
 
 <p>/v1/api/lever/borrowparam</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/borrowparam</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/borrowparam</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7444,7 +7444,7 @@
 
 <p>/v1/api/lever/borrow</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/borrow</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/borrow</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7523,7 +7523,7 @@
 
 <p>/v1/api/lever/repayparam</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/repayparam</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/repayparam</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7621,7 +7621,7 @@
 
 <p>/v1/api/lever/repay</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/repay</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/repay</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7700,7 +7700,7 @@
 
 <p>/v1/api/lever/record/borrow_repay</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/record/borrow_repay</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/record/borrow_repay</code></p>
 
 <p><strong>路由参数：</strong></p>
 
@@ -7865,7 +7865,7 @@
 
 <p>/v1/api/lever/ledger</p>
 
-<p>curl <code>https://api.fameex.com/v1/api/lever/ledger</code></p>
+<p>curl <code>https://api.cryptobridgecenter.com/v1/api/lever/ledger</code></p>
 
 <p><strong>路由参数：</strong></p>
 

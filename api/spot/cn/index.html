@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="../../../images/favicon-7aa1f22d.ico" rel="icon" type="image/ico">
+    <link href="../../../images/favicon-1b7bd5e8.ico" rel="icon" type="image/ico">
     <title>CBC API Documentation</title>
 
     <style media="screen">
@@ -283,8 +283,8 @@
   color: #859900;
 }
     </style>
-    <link href="../../../stylesheets/screen-55871544.css" rel="stylesheet" media="screen" />
-    <link href="../../../stylesheets/print-f31fd364.css" rel="stylesheet" media="print" />
+    <link href="../../../stylesheets/screen-b2126561.css" rel="stylesheet" media="screen" />
+    <link href="../../../stylesheets/print-cdd446ef.css" rel="stylesheet" media="print" />
       <script src="../../../javascripts/all-a9fde460.js"></script>
 
     <script>
@@ -301,7 +301,7 @@
     </a>
     <header>
       <div class="flex_box">
-        <a href="https://www.cryptobridgecenter.com/" class="LG" id="LG"><img src="../../../images/logo-1434fd81.png" class="logo" alt="Logo"></a>
+        <a href="https://www.cryptobridgecenter.com/" class="LG" id="LG"><img src="../../../images/logo-e41d5197.png" class="logo" alt="Logo"></a>
         <div class="nav_box">
           <span class="nav_cell" style="display: none">
             <a href="javascript:;" class="nav_first">v1<i class="icon_nav"></i></a>
@@ -335,35 +335,6 @@
       <ul id="toc" class="toc-list-h1">
           <li>
             <a href="#185368440e" class="toc-h1 toc-link" data-title="更新日志">更新日志</a>
-              <ul class="toc-list-h2">
-                  <li>
-                    <a href="#2022-11-07" class="toc-h2 toc-link" data-title="2022-11-07">2022-11-07</a>
-                  </li>
-                  <li>
-                    <a href="#2021-03-30" class="toc-h2 toc-link" data-title="2021-03-30">2021-03-30</a>
-                  </li>
-                  <li>
-                    <a href="#2021-08-24" class="toc-h2 toc-link" data-title="2021-08-24">2021-08-24</a>
-                  </li>
-                  <li>
-                    <a href="#2020-12-22" class="toc-h2 toc-link" data-title="2020-12-22">2020-12-22</a>
-                  </li>
-                  <li>
-                    <a href="#2020-11-16" class="toc-h2 toc-link" data-title="2020-11-16">2020-11-16</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-30" class="toc-h2 toc-link" data-title="2020-10-30">2020-10-30</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-29" class="toc-h2 toc-link" data-title="2020-10-29">2020-10-29</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-28" class="toc-h2 toc-link" data-title="2020-10-28">2020-10-28</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-27" class="toc-h2 toc-link" data-title="2020-10-27">2020-10-27</a>
-                  </li>
-              </ul>
           </li>
           <li>
             <a href="#5ea2e0cde2" class="toc-h1 toc-link" data-title="简介">简介</a>
@@ -582,144 +553,7 @@
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='185368440e'>更新日志</h1><h2 id='2022-11-07'>2022-11-07</h2>
-<ul>
-<li>新增现货行情接口:
-
-<ul>
-<li>GET <code>/v2/public/assets</code> 币种列表</li>
-<li>GET <code>/v2/public/summary</code> 交易对信息</li>
-<li>GET <code>/v2/public/ticker</code> 交易对摘要</li>
-<li>GET <code>/v2/public/orderbook/market_pair</code> 深度信息</li>
-<li>GET <code>/v2/public/trades/market_pair</code> 订单查询</li>
-</ul></li>
-</ul>
-<h2 id='2021-03-30'>2021-03-30</h2>
-<ul>
-<li>新增现货行情接口:
-
-<ul>
-<li>GET <code>/api/v2/orderbook</code> 获取深度信息</li>
-<li>GET <code>/api/v2/trades</code> 获取近期成交</li>
-<li>GET <code>/api/v2/ticker/24hr</code> 获取 24 小时滚动窗口价格变动数据</li>
-<li>GET <code>/api/v2/ticker/price</code> 获取交易对最新价格</li>
-</ul></li>
-</ul>
-<h2 id='2021-08-24'>2021-08-24</h2>
-<ul>
-<li><p>Websocket 行情推送更新：</p>
-
-<ul>
-<li>更新心跳连接 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>更新登录信息 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>删除注册 K 线信息 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>删除注册首页行情 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>删除注册深度行情 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>更新推送首页行情 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>更新推送币对深度列表 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>更新推送 K 线数据 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>更新推送最新成交订单行情 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>删除推送订单成交或者撤销 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>删除推送我的订单部分撤销 <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>更新注销首页行情 <code>wss://www.cryptobridgecenter.com/push</code></li>
-</ul></li>
-<li><p>币币交易 API 接口更新：</p>
-
-<ul>
-<li>修改获取 K 线数据接口 <code>/v1/market/history/kline</code></li>
-<li>修改获取市场深度数据接口 <code>/v1/market/depth</code></li>
-<li>修改获取成交数据接口 <code>/v1/market/history/trade</code></li>
-<li>修改获取某个 ticker 信息接口 <code>/v1/market/history/kline24h</code></li>
-<li>修改获取全部 ticker 信息接口 <code>/v1/market/history/kline24h/all</code></li>
-<li>修改币币下单接口 <code>/v1/api/spot/orders</code></li>
-<li>修改币币撤单接口 <code>/v1/api/spot/cancel_orders</code></li>
-<li>修改批量撤单接口 <code>/spot/v1/cancel_batch_orders</code></li>
-<li>修改获取委托单详情接口 <code>/v1/api/spot/orderdetail</code></li>
-<li>修改获取委托单列表接口 <code>/v1/api/spot/orderlist</code></li>
-<li>修改获取成交明细接口 <code>/v1/api/spot/fills</code></li>
-<li>修改获取所有未完成的订单接口 <code>/v1/api/orders_pending</code></li>
-</ul></li>
-<li><p>杠杆交易 API 接口更新：</p>
-
-<ul>
-<li>修改杠杆下单接口 <code>/v1/api/lever/orders/place</code></li>
-<li>修改杠杆撤单接口 <code>/v1/api/lever/cancel_orders</code></li>
-<li>修改杠杆批量撤单接口 <code>/v1/api/lever/orders/batch_cancel</code></li>
-<li>修改获取杠杆委托单列表接口 <code>/v1/api/lever/orders</code></li>
-<li>修改获取杠杆委托单详情接口 <code>/v1/api/lever/orders/detail</code></li>
-<li>修改获取杠杆成交明细接口 <code>/v1/api/lever/deals</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-12-22'>2020-12-22</h2>
-<ul>
-<li>钱包接口更新：
-
-<ul>
-<li>删除所有币种的提币记录接口 <code>v1/api/account/withdrawal/history</code></li>
-<li>删除单个币种的提币记录接口 <code>v1/api/account/withdrawal/history/currency</code></li>
-<li>删除获取所有币种的充币记录接口 <code>v1/api/account/deposit/histoty</code></li>
-<li>删除查询账单流水记录接口 <code>v1/api/spot/bill_flow</code></li>
-<li>新增查询现货账户交易账单接口 <code>v1/api/spot/record/trade</code></li>
-<li>新增查询现货账户划转账单接口 <code>v1/api/spot/record/chargewithdraw</code></li>
-<li>新增查询现货账户充提账单接口 <code>v1/api/spot/record/trans</code></li>
-<li>新增查询现货账户其他账单接口 <code>v1/api/spot/record/others</code></li>
-<li>修改资金划转接口参数接口 <code>v1/api/account/transfer</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-11-16'>2020-11-16</h2>
-<ul>
-<li>币币交易接口更新：
-
-<ul>
-<li>更新获取订单列表 <code>v1/api/spot/orderlist</code>为获取委托单列表</li>
-<li>更新获取订单详情 <code>v1/api/spot/orderdetail</code> 为获取委托单详情</li>
-<li>更新获取杠杆订单列表 <code>v1/api/lever/orders</code>为获取杠杆订单列表</li>
-<li>更新获取杠杆订单详情 <code>v1/api/lever/orders/detail</code>为获取杠杆委托单详情</li>
-</ul></li>
-</ul>
-<h2 id='2020-10-30'>2020-10-30</h2>
-<ul>
-<li>钱包接口更新：
-
-<ul>
-<li>修改资金划转功能接口 <code>v1/api/account/transfer</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-10-29'>2020-10-29</h2>
-<ul>
-<li>钱包接口更新：
-
-<ul>
-<li>新增杠杆挂单功能接口 <code>v1/api/lever/orders/place</code></li>
-<li>新增杠杆撤单功能接口 <code>v1/api/lever/orders/cancel</code></li>
-<li>新增杠杆批量撤单接口 <code>v1/api/lever/orders/batch_cancel</code></li>
-<li>新增获取杠杆账户委托单列表功能接口 <code>v1/api/lever/orders</code></li>
-<li>新增获取杠杆账户委托单详情功能接口 <code>v1/api/lever/orders/detail</code></li>
-<li>新增获取杠杆配置功能接口 <code>v1/api/lever/pair/config</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-10-28'>2020-10-28</h2>
-<ul>
-<li>钱包接口更新：
-
-<ul>
-<li>新增获取杠杆账户账单接口 <code>v1/api/lever/ledger</code></li>
-<li>新增获取杠杆账户特定币对，特定币种下还币的提示参数接口 <code>v1/api/lever/repayparam</code></li>
-<li>新增获取杠杆账户特定币对，特定币种下还币接口 <code>v1/api/lever/repay</code></li>
-<li>新增获取杠杆账户特定币对，特定币种下借币的提示参数接口 <code>v1/api/lever/borrow</code></li>
-<li>新增获取杠杆账户特定币对，特定币种下借币接口 <code>v1/api/lever/borrowparam</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-10-27'>2020-10-27</h2>
-<ul>
-<li>钱包接口更新：
-
-<ul>
-<li>新增获取杠杆账户信息接口 <code>v1/api/lever/accounts</code></li>
-<li>新增获取杠杆账户下某一特定币对详情接口 <code>v1/api/lever/accounts/{pairName}</code></li>
-</ul></li>
-</ul>
-<h1 id='5ea2e0cde2'>简介</h1>
+        <h1 id='185368440e'>更新日志</h1><h1 id='5ea2e0cde2'>简介</h1>
 <p>API 概述</p>
 
 <p>CBC 为您提供了一套简单又强大的 API 接口，帮助您快速、高效的获取行情和进行交易。</p>
@@ -734,15 +568,7 @@
 
 <p>我们的联系方式如下：</p>
 
-<p>官方客服邮箱：Service@mail.fameex.info</p>
-
-<p>官方微博：<a href="https://weibo.com/fameexgroup">https://weibo.com/fameexgroup</a></p>
-
-<p>官方 Twitter：<a href="https://twitter.com/FAMEEXGLOBAL">https://twitter.com/FAMEEXGLOBAL</a></p>
-
-<p>官方 Telegram：<a href="https://t.me/fameexgroup">https://t.me/fameexgroup</a></p>
-
-<p>官方 Facebook：<a href="https://www.facebook.com/FAMEEXGLOBAL">https://www.facebook.com/FAMEEXGLOBAL</a></p>
+<p>官方客服邮箱：cbc@cryptobridgecenter.com</p>
 
 <p>我们将为您做出最权威的解答。</p>
 <h1 id='2d07d50c97'>接入说明</h1><h2 id='urls'>接入 URLs</h2>

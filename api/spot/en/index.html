@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="../../../images/favicon-7aa1f22d.ico" rel="icon" type="image/ico">
+    <link href="../../../images/favicon-1b7bd5e8.ico" rel="icon" type="image/ico">
     <title>CBC API Documentation</title>
 
     <style media="screen">
@@ -283,8 +283,8 @@
   color: #859900;
 }
     </style>
-    <link href="../../../stylesheets/screen-55871544.css" rel="stylesheet" media="screen" />
-    <link href="../../../stylesheets/print-f31fd364.css" rel="stylesheet" media="print" />
+    <link href="../../../stylesheets/screen-b2126561.css" rel="stylesheet" media="screen" />
+    <link href="../../../stylesheets/print-cdd446ef.css" rel="stylesheet" media="print" />
       <script src="../../../javascripts/all-a9fde460.js"></script>
 
     <script>
@@ -301,7 +301,7 @@
     </a>
     <header>
       <div class="flex_box">
-        <a href="https://www.cryptobridgecenter.com/" class="LG" id="LG"><img src="../../../images/logo-1434fd81.png" class="logo" alt="Logo"></a>
+        <a href="https://www.cryptobridgecenter.com/" class="LG" id="LG"><img src="../../../images/logo-e41d5197.png" class="logo" alt="Logo"></a>
         <div class="nav_box">
           <span class="nav_cell" style="display: none">
             <a href="javascript:;" class="nav_first">v1<i class="icon_nav"></i></a>
@@ -335,35 +335,6 @@
       <ul id="toc" class="toc-list-h1">
           <li>
             <a href="#change-log" class="toc-h1 toc-link" data-title="Change Log">Change Log</a>
-              <ul class="toc-list-h2">
-                  <li>
-                    <a href="#2022-11-07" class="toc-h2 toc-link" data-title="2022-11-07">2022-11-07</a>
-                  </li>
-                  <li>
-                    <a href="#2021-03-30" class="toc-h2 toc-link" data-title="2021-03-30">2021-03-30</a>
-                  </li>
-                  <li>
-                    <a href="#2021-08-24" class="toc-h2 toc-link" data-title="2021-08-24">2021-08-24</a>
-                  </li>
-                  <li>
-                    <a href="#2020-12-22" class="toc-h2 toc-link" data-title="2020-12-22">2020-12-22</a>
-                  </li>
-                  <li>
-                    <a href="#2020-11-16" class="toc-h2 toc-link" data-title="2020-11-16">2020-11-16</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-30" class="toc-h2 toc-link" data-title="2020-10-30">2020-10-30</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-29" class="toc-h2 toc-link" data-title="2020-10-29">2020-10-29</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-28" class="toc-h2 toc-link" data-title="2020-10-28">2020-10-28</a>
-                  </li>
-                  <li>
-                    <a href="#2020-10-27" class="toc-h2 toc-link" data-title="2020-10-27">2020-10-27</a>
-                  </li>
-              </ul>
           </li>
           <li>
             <a href="#introduction" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
@@ -582,144 +553,7 @@
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='change-log'>Change Log</h1><h2 id='2022-11-07'>2022-11-07</h2>
-<ul>
-<li>New endpoint for Market Data:
-
-<ul>
-<li>GET <code>/v2/public/assets</code> to query detailed summary for each currency</li>
-<li>GET <code>/v2/public/summary</code> to query an overview of market data for all tickers and all market pairs</li>
-<li>GET <code>/v2/public/ticker</code> to query a 24-hour pricing and volume summary for each market pair</li>
-<li>GET <code>/v2/public/orderbook/market_pair</code> to query full depth returned for a given market pair</li>
-<li>GET <code>/v2/public/trades/market_pair</code> to query completed trades for a given market pair</li>
-</ul></li>
-</ul>
-<h2 id='2021-03-30'>2021-03-30</h2>
-<ul>
-<li>New endpoint for Market Data:
-
-<ul>
-<li>GET <code>/api/v2/orderbook</code> to query order book.</li>
-<li>GET <code>/api/v2/trades</code> to query recent trades.</li>
-<li>GET <code>/api/v2/ticker/24hr</code> to query 24 hour rolling window price change statistics.</li>
-<li>GET <code>/api/v2/ticker/price</code> to get latest price for a symbol.</li>
-</ul></li>
-</ul>
-<h2 id='2021-08-24'>2021-08-24</h2>
-<ul>
-<li><p>Websocket market push update:</p>
-
-<ul>
-<li>Update heartbeat connection <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Update login information <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Delete registration candle information <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Delete registration homepage quotes <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Delete registration in-depth quotation <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Update and push the homepage quotation <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Update the push currency pair depth list <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Update push K-line/Candlestick data <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Update and push the latest transaction order quotation <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Delete push order transaction or cancellation <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Delete push My order is partially cancelled <code>wss://www.cryptobridgecenter.com/push</code></li>
-<li>Update and logout home page quotes <code>wss://www.cryptobridgecenter.com/push</code></li>
-</ul></li>
-<li><p>Updates to the currency trading API interface:</p>
-
-<ul>
-<li>Modify the interface for obtaining K-line/Candlestick data <code>/v1/market/history/kline</code></li>
-<li>Modify the interface for obtaining market depth data <code>/v1/market/depth</code></li>
-<li>Modify the interface for obtaining transaction data <code>/v1/market/history/trade</code></li>
-<li>Modify the interface to obtain a ticker information <code>/v1/market/history/kline24h</code></li>
-<li>Modify the interface to get all ticker information <code>/v1/market/history/kline24h/all</code></li>
-<li>Modify the currency order interface <code>/v1/api/spot/orders</code></li>
-<li>Modify the currency withdrawal order interface <code>/v1/api/spot/cancel_orders</code></li>
-<li>Modify the batch cancellation interface <code>/spot/v1/cancel_batch_orders</code></li>
-<li>Modify the interface for obtaining order details <code>/v1/api/spot/orderdetail</code></li>
-<li>Modify the interface to get the list of orders <code>/v1/api/spot/orderlist</code></li>
-<li>Modify the interface for obtaining transaction details <code>/v1/api/spot/fills</code></li>
-<li>Modify the interface to get all outstanding orders <code>/v1/api/orders_pending</code></li>
-</ul></li>
-<li><p>Margin trading API interface update:</p>
-
-<ul>
-<li>Modify the leverage order interface <code>/v1/api/lever/orders/place</code></li>
-<li>Modify the interface of leveraged order cancellation <code>/v1/api/lever/cancel_orders</code></li>
-<li>Modify the leveraged batch cancellation interface <code>/v1/api/lever/orders/batch_cancel</code></li>
-<li>Modify the interface for obtaining the list of leveraged orders <code>/v1/api/lever/orders</code></li>
-<li>Modify the interface for obtaining the details of leveraged orders <code>/v1/api/lever/orders/detail</code></li>
-<li>Modify the interface for obtaining leveraged transaction details <code>/v1/api/lever/deals</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-12-22'>2020-12-22</h2>
-<ul>
-<li>Wallet interface update:
-
-<ul>
-<li>Delete the withdrawal record interface of all currencies <code>v1/api/account/withdrawal/history</code></li>
-<li>Delete the withdrawal record interface of a single currency <code>v1/api/account/withdrawal/history/currency</code></li>
-<li>Delete the deposit record interface for obtaining all currencies <code>v1/api/account/deposit/histoty</code></li>
-<li>Delete the interface for querying bill flow records <code>v1/api/spot/bill_flow</code></li>
-<li>Added an interface for querying spot account transaction bills <code>v1/api/spot/record/trade</code></li>
-<li>Added an interface for querying the transfer bill of a spot account <code>v1/api/spot/record/chargewithdraw</code></li>
-<li>Added an interface for querying cash account deposit and withdrawal bills <code>v1/api/spot/record/trans</code></li>
-<li>Added an interface for querying other bills of spot accounts <code>v1/api/spot/record/others</code></li>
-<li>Modify the fund transfer interface parameter interface <code>v1/api/account/transfer</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-11-16'>2020-11-16</h2>
-<ul>
-<li>Coin trading interface update:
-
-<ul>
-<li>Update obtain a list of orders <code>v1/api/spot/orderlist</code>to obtain a list of orders</li>
-<li>Update get order details <code>v1/api/spot/orderdetail</code>to obtain orders details</li>
-<li>Updated list of orders to obtain leverage <code>v1/api/lever/orders</code>to obtain a list of orders lever</li>
-<li>Update get order details leverage <code>v1/api/lever/orders/detail</code>to acquire a lever Order details</li>
-</ul></li>
-</ul>
-<h2 id='2020-10-30'>2020-10-30</h2>
-<ul>
-<li>Wallet interface update:
-
-<ul>
-<li>Modify the fund transfer function interface <code>v1/api/account/transfer</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-10-29'>2020-10-29</h2>
-<ul>
-<li>Wallet interface update:
-
-<ul>
-<li>Added function interface for leveraged pending orders <code>v1/api/lever/orders/place</code></li>
-<li>Added a function interface for leveraged order cancellation <code>v1/api/lever/orders/cancel</code></li>
-<li>New interface for batch withdrawal of leveraged orders <code>v1/api/lever/orders/batch_cancel</code></li>
-<li>Added a function interface for obtaining the order list of margin accounts <code>v1/api/lever/orders</code></li>
-<li>Added a function interface for obtaining the details of a margin account order <code>v1/api/lever/orders/detail</code></li>
-<li>Added function interface for obtaining leverage configuration <code>v1/api/lever/pair/config</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-10-28'>2020-10-28</h2>
-<ul>
-<li>Wallet interface update:
-
-<ul>
-<li>Added an interface for obtaining a margin account statement <code>v1/api/lever/ledger</code></li>
-<li>Added the prompt parameter interface for obtaining a specific currency pair of a margin account and repaying a currency under a specific currency <code>v1/api/lever/repayparam</code></li>
-<li>Added a new interface for obtaining specific currency pairs for margin accounts and repaying currencies under specific currencies <code>v1/api/lever/repay</code></li>
-<li>Added a new interface for obtaining specific currency pairs in a margin account, and a prompt parameter interface for borrowing currency in a specific currency <code>v1/api/lever/borrow</code></li>
-<li>Added interface for obtaining specific currency pairs in margin accounts and borrowing currency in specific currencies <code>v1/api/lever/borrowparam</code></li>
-</ul></li>
-</ul>
-<h2 id='2020-10-27'>2020-10-27</h2>
-<ul>
-<li>Wallet interface update:
-
-<ul>
-<li>Added an interface for obtaining margin account information <code>v1/api/lever/accounts</code></li>
-<li>Added an interface for obtaining the details of a specific currency pair under a margin account <code>v1/api/lever/accounts/{pairName}</code></li>
-</ul></li>
-</ul>
-<h1 id='introduction'>Introduction</h1>
+        <h1 id='change-log'>Change Log</h1><h1 id='introduction'>Introduction</h1>
 <p>API overview</p>
 
 <p>CBC provides you with a simple and powerful API interface to help you obtain market information and trade quickly and efficiently.</p>
@@ -734,13 +568,7 @@
 
 <p>Our contact information is as follows:</p>
 
-<p>Official customer service mailbox: <a href="mailto:Service@mail.fameex.info">Service@mail.fameex.info</a></p>
-
-<p>Official Twitter: <a href="https://twitter.com/FAMEEXGLOBAL">https://twitter.com/FAMEEXGLOBAL</a></p>
-
-<p>Official Telegram: <a href="https://t.me/fameexgroup">https://t.me/fameexgroup</a></p>
-
-<p>Official Facebook: <a href="https://www.facebook.com/FAMEEXGLOBAL">https://www.facebook.com/FAMEEXGLOBAL</a></p>
+<p>Official customer service mailbox: <a href="mailto:cbc@cryptobridgecenter.com">cbc@cryptobridgecenter.com</a></p>
 
 <p>Our official support is the most authoritative source for information about this API.</p>
 <h1 id='access-instructions'>Access instructions</h1><h2 id='access-urls'>Access URLs</h2>
